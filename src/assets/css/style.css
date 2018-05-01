@@ -1,0 +1,759 @@
+/* ===========================
+--- General Style
+============================ */
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #11203d!important;
+}
+p, span {
+    color: #15233e;
+}
+
+textarea {
+    resize: none;
+}
+
+/* ===========================
+--- Header Style
+============================ */
+
+/*-------- General Header Style ----------*/
+
+.topbar .topbar-left {
+    position: relative;
+    background: none;
+    width: 600px;
+    margin-left: 45px;
+}
+
+.topbar .topbar-left .logo {
+    float: left;
+    width: 181px;
+    text-transform: none;
+    padding-right: 15px;
+    line-height: 70px;
+}
+
+.topbar .topbar-left .logo span {
+    font-size: 24px;
+}
+
+.topbar .topbar-left p {
+    float: left;
+    padding-top: 30px;
+    color: #547391;
+}
+
+.topbar .navbar {
+    background-color: #ffffff;
+}
+
+.topbar .navbar .dropdown-toggle .fa {
+    color: #547391;
+}
+
+.topbar .navbar .dropdown-toggle .badge {
+    margin-right: 10px;
+    margin-top: 11px;
+    vertical-align: top;
+    line-height: 22px;
+    font-size: 14px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #0B1939;
+    background-color: rgb(232,233,235);
+}
+
+/*-------- User Profile Header Style ----------*/
+
+.topbar .navbar .dropdown-toggle {
+    padding: 10px;
+    border: medium none !important;
+    background: white none repeat scroll 0% 0%;
+    box-shadow: none;
+    line-height: 50px;
+    color: #11203d;
+}
+
+/*-------- List UI Header Style ----------*/
+
+.topbar .navbar .log-in {
+    margin: 15px 30px 0 0;
+    padding: 7px 33px;
+    background-color: #11203d!important;
+    border: none !important;
+    color: white;
+}
+
+.topbar .navbar .sign-up {
+    margin: 15px 0 0 0;
+    padding: 7px 33px;
+    background-color: white!important;
+    box-shadow: none;
+    border: none !important;
+    color: #11203d;
+}
+
+/* ===========================
+--- Content Style
+============================ */
+
+/*-------- General Content Style ----------*/
+
+.content-page {
+    margin-left: 0;
+}
+
+.content-page .container > .row {
+    padding: 0px 25px;
+}
+
+
+.content-page .left-panel .user-details {
+    padding: 0;
+}
+
+.content-page .left-panel .user-photo {
+    height: 70px;
+}
+
+.content-page .left-panel .user-photo img {
+    width: 65px;
+    height: 65px;
+    z-index: 1;
+}
+
+.content-page .left-panel .user-photo button {
+    background-color: #11203d !important;
+    border: 1px solid #11203d !important;
+    color: white;
+    padding: 6px 40px;
+    font-family: 'lato';
+}
+
+.content-page .left-panel .user-profile {
+    clear: both;
+}
+
+.content-page .left-panel .user-profile h3 {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.content-page .left-panel .user-profile h5 {
+    margin-top: 0;
+}
+
+.content-page .left-panel .user-profile p {
+    color: #11203d;
+}
+
+.content-page .main-panel .content-header .page-title {
+    color: #525252;
+}
+
+.content-page .main-panel .content-header label {
+    color: #525252;
+    font-weight: 300;
+}
+
+.content-page .main-panel .content-header .dropdown-toggle {
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: 5px;
+    color: #525252;
+}
+
+.content-page .main-panel .content-header .dropdown-toggle span {
+    margin-left: 10px;
+}
+
+.content-page .main-panel .content-header .page-num .btn-inverse {
+    background-color: #11203d !important;
+    border: 1px solid #11203d !important;
+}
+
+.content-page .main-panel .content-header .page-num .btn {
+    margin-left: 10px;
+}
+
+.content-page .main-panel .panel-heading .badge {
+    margin-right: 8px;
+    margin-top: 4px;
+    vertical-align: top;
+    line-height: 22px;
+    font-size: 14px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #0B1939;
+    background-color: rgb(232,233,235);
+}
+
+.content-page .panel-title {
+    text-transform: none;
+}
+
+.content-page .main-panel .panel-heading h3 {
+    display: inline-block;
+    line-height: 36px;
+    color: #11203d;
+}
+
+.content-page .main-panel .panel-heading h3 span {
+    font-weight: 300;
+}
+
+.content-page .main-panel .panel-body > h4 {
+    font-weight: 600;
+}
+
+.content-page .main-panel .panel-body p {
+    color: #0B1939;
+}
+
+.content-page .main-panel .panel-body .raport {
+    line-height: 34px;
+    color: black;
+}
+
+.content-page .main-panel .panel-body .vote {
+    background-color: #11203d !important;
+    border: 1px solid #11203d !important;
+}
+
+.content-page .main-panel .panel-body .vote * {
+    color: white;
+}
+
+.content-page .right-panel .panel {
+    background-color: #11203d;
+}
+
+.content-page .right-panel .panel-body {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.content-page .right-panel .panel-body img {
+    font-size: 70px;
+    padding: 40px 0 30px 0;
+}
+
+.content-page .right-panel .panel-body button {
+    width: 90%;
+    background-color: white!important;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.content-page .right-panel .panel-body p {
+    color: white;
+    padding: 5px;
+}
+
+
+
+ fieldset, label { margin: 0; padding: 0; }
+
+/****** Style Star Rating Widget *****/
+
+.rating, .starRating {
+  border: none;
+  float: left;
+  margin-left: -2px;
+}
+
+.rating > input { display: none; }
+
+.rating > label:before {
+  margin: 2px;
+  font-size: 23px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+
+/*-------- Pe Profile Content Style ----------*/
+
+.pe-profile-section {
+    /*display: none;*/
+}
+
+.pe-profile-section .user-details {
+    /*margin-top: 30px;*/
+    background-color: #fafafa;
+}
+
+.pe-profile-section .user-photo {
+    height: 75px;
+}
+
+.pe-profile-section .user-photo img {
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.pe-profile-section .user-photo button {
+    background-color: #11203d !important;
+}
+
+.pe-profile-section .user-profile h4 {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.pe-profile-section .user-profile h4 a {
+    position: absolute;
+    font-size: 11px;
+    top: -5px;
+    left: 53px;
+    background-color: #11203d !important;
+    border-color: #11203d !important;
+}
+
+.pe-profile-section .user-profile a:nth-child(2) {
+    font-size: 13px;
+    color: #2b9ac9;
+}
+
+.pe-profile-section .user-details .review-count {
+    clear: both;
+    margin-top: 35px;
+    color: #2b9ac9;
+}
+
+.pe-profile-section .user-details .blank {
+    height: 150px;
+}
+
+.pe-profile-section .user-details .investment-manager {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.pe-profile-section .user-details .investment-manager-link {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.pe-profile-section .user-details .rating > label {
+    color: #2b9ac9;
+}
+
+.pe-profile-section .user-details .rating > label::before {
+    font-size: 19px;
+}
+
+.pe-profile-section .checkbox {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.pe-profile-section .checkbox label {
+    color: black;
+}
+
+.pe-profile-content .main-panel .overlay {
+    position: absolute;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.pe-profile-content .main-panel .overlay .write-three-review {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+}
+
+.pe-profile-content .write-three-review .panel-body {
+    background-color: white;
+}
+
+.pe-profile-content .write-three-review .panel-body i {
+    font-size: 40px;
+    color: #2b9ac9;
+}
+
+.pe-profile-content .write-three-review .panel-body p {
+    padding-top: 15px;
+    color: #2b9ac9;
+}
+
+.pe-profile-content .write-three-review .panel-body button {
+    margin-top: 20px;
+    /*background-color: #2b9ac9;*/
+}
+
+/*-------- List UI Content Style ----------*/
+
+/*#sidebar-menu {
+    padding-bottom: 20px!important;
+}*/
+
+.list-ui-content .left-panel .star-check {
+    padding-bottom: 0px!important;
+    margin: 0px;
+}
+
+.list-ui-content .left-panel .star-check .rating {
+    margin-left: -18px;
+    line-height: 14px;
+}
+
+.list-ui-content .left-panel .star-check .rating > label::before {
+    border: none;
+}
+
+.list-ui-content .left-panel .star-check .rating label {
+    margin-left: 14px;
+}
+
+
+
+#sidebar-menu ul ul a {
+    padding-left: 30px;
+}
+
+#sidebar-menu ul li .checkbox {
+    padding: 15px 25px 15px 43px;
+}
+
+.list-ui-content .main-panel .user-photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.list-ui-content .main-panel .rating > label {
+    color: black;
+}
+
+.list-ui-content .main-panel .review-count {
+    display: inline-block;
+    margin: 0px;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.list-ui-content .main-panel h4,
+.list-ui-content .main-panel h5 {
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.list-ui-content .main-panel .col-sm-11 .col-sm-12 {
+    padding-left: 0;
+}
+
+.list-ui-content .main-panel .col-sm-11 .col-sm-12 p {
+    color: #547391;
+}
+
+.list-ui-content .main-panel .col-sm-11 .col-sm-12 p span {
+    color: #cacaca;
+}
+
+.list-ui-content .main-panel .col-sm-11 .col-sm-12:first-child p {
+    color: #111f3b;
+}
+
+.list-ui-content .main-panel .col-sm-11 .col-sm-12:nth-child(2) {
+    padding-top: 30px;
+    border-bottom: 1px solid #e7e8eb;
+}
+.list-ui-content .main-panel .col-sm-11 .col-sm-12:last-child p {
+    padding-top: 8px;
+}
+
+/* ===========================
+--- Footer Style
+============================ */
+
+.footer {
+    left: 0;
+    z-index: 2;
+    padding: 15px 45px;
+}
+
+.footer img {
+    width: 93px;
+}
+
+.footer p {
+    font-size: 13px;
+    margin: 0;
+    padding-left: 20px;
+    clear: both;
+}
+
+.footer p:last-child {
+    color: gray;
+}
+
+.footer a {
+    font-size: 13px;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+
+.footer a:nth-child(3) {
+    padding-left: 20px;
+}
+
+/* ===========================
+--- Modal Style
+============================ */
+
+.modal-content {
+    padding: 0!important;
+}
+
+.modal-header {
+    padding: 15px 20px !important;
+    border-bottom-width: 1px!important;
+}
+
+.modal-header .close {
+    margin-top: 0;
+}
+
+.modal-header .pull-left h5 {
+    margin: 3px 0 0 0;
+}
+
+.modal-header img {
+    position: absolute;
+    width: 100px;
+    top: 30px;
+    left: 90px;
+}
+
+.modal-header .pull-left img {
+    position: absolute;
+    width: 100px;
+    top: 18px;
+    left: 90px;
+}
+
+.modal-header .pull-right a {
+    padding-right: 20px;
+    margin: 0px;
+    color: #11203d!important;
+    text-decoration: underline;
+}
+
+.modal-body {
+    padding: 20px 25px 0 25px !important;
+}
+
+.modal-body .linked-in-btn {
+    background-color: rgb(0, 105, 180) !important;
+    color: white;
+}
+
+.modal-body .linked-in-btn span {
+    color: white;
+}
+
+.modal-body .linked-in-btn i {
+    font-size: 23px;
+    line-height: 20px;
+}
+.modal-body h5 {
+    color: #535353 !important;
+}
+
+.modal-body .give-review .form-group:nth-child(4) .form-group {
+    margin: 0;
+}
+
+.modal-body .submit-btn {
+    background-color: #11203d!important;
+}
+
+.modal-footer {
+    border: none!important;
+    padding: 5px 20px 20px!important;
+}
+
+.modal-footer a {
+    color: #547391;
+    text-decoration: underline;
+}
+
+.modal-footer button {
+    background-color: rgb(17, 32, 61) !important;
+    padding: 6px 38px;
+    margin-left: 8px;
+}
+
+.signup-modal-p {
+    font-size: 11px;
+}
+
+.signup-modal-p {
+    font-size: 11px;
+}
+
+.signup-modal .modal-footer button {
+    padding: 7px;
+    width: 100%;
+}
+
+.modal-footer .linked-in-btn {
+    padding-left: 15px;
+    background-color: rgb(0, 105, 180) !important;
+    text-align: left;
+    color: white;
+}
+
+.modal-footer .linked-in-btn i {
+    font-size: 23px;
+    line-height: 20px;
+}
+
+/*-------- Sign Up Modal Style ----------*/
+
+.signup-modal .modal-body p {
+    font-size: 11px;
+}
+
+.signup-modal .modal-body form .form-group:first-child {
+    margin-bottom: 0;
+}
+
+.signup-modal .modal-body form h5:nth-child(2) {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.signup-modal .modal-body form .form-group:nth-child(6) label {
+    padding-top: 0;
+}
+
+.signup-modal .modal-footer p {
+    font-size: 11px;
+}
+
+.signup-modal .modal-footer button {
+    padding: 7px;
+    width: 100%;
+}
+
+/*-------- Add a Review Modal Style ----------*/
+
+.add-review-modal .starRating:not(old){
+  display        : inline-block;
+  width          : 130px;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.add-review-modal .starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+
+.add-review-modal .starRating:not(old) > label{
+  float           : right;
+  position        : relative;
+}
+
+.add-review-modal .starRating:not(old) > label:before{
+  margin: 2px;
+  font-size: 23px;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+  color: #ddd;
+}
+
+.add-review-modal .starRating:not(old) > .half:before {
+  content: "\f089";
+  position: absolute;
+  right: -15px;
+}
+
+
+.add-review-modal .starRating:not(old) > label:hover:before,
+.add-review-modal .starRating:not(old) > label:hover ~ label:before,
+.add-review-modal .starRating:not(:hover) > :checked ~ label:before{
+  color: #2b9ac9;
+}
+
+/*.add-review-modal textarea {
+    resize: none;
+}*/
+
+.add-review-modal .input-group-btn button {
+    background-color: rgb(17, 32, 61) !important;
+}
+
+.add-review-modal .modal-body .form-group .checkbox label::before {
+    top: 2px;
+}
+
+.add-review-modal  .modal-footer {
+    padding: 15px 20px !important;
+    border-top: 1px solid #e5e5e5!important;
+}
+
+/*-------- Add an Investment Manager Modal Style ----------*/
+
+.add-manager-modal a {
+    text-decoration: none;
+}
+
+.add-manager-modal .dropdown-toggle {
+    text-align: left;
+}
+
+.add-manager-modal .dropdown-toggle > span {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.add-manager-modal ul {
+    left: 11px;
+    width: calc(100% - 22px);
+}
+
+/*-------- Setting Modal Style ----------*/
+
+.setting-modal .modal-footer .col-sm-12 {
+    padding-right: 0;
+}
+
+.setting-modal .modal-body .submit-change,
+.setting-modal .modal-body .change-pass {
+    background-color: rgb(17, 32, 61) !important;
+}
+
+.setting-modal .form-horizontal .control-label {
+    padding-top: 4px;
+}
+
+.setting-modal .form-horizontal .form-group:nth-child(2) .control-label {
+    padding-top: 0px;
+    margin-top: -4px;
+}
+
+.setting-modal .form-horizontal .form-group:nth-child(5) .control-label {
+    padding-top: 19px;
+}

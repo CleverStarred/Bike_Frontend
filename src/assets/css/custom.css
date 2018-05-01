@@ -1,0 +1,81 @@
+.topnav-auth-panel {
+	margin-top: 17px;
+}
+.panel-top-maketing {
+	margin-top: 20px;
+}
+/*
+signUp page
+*/
+.signup-label {
+	background-color: #4b5a64;
+	padding: 40px;
+}
+.text-signup-label {
+	color: #ffffff !important;
+}
+.text-signup {
+	color: #4b5a64;
+}
+.panel-services {
+	padding: 40px;
+}
+.auth-stat {
+	text-align: center;
+}
+.auth-stat-icon {
+	border-radius: 100%;
+    background-color: #ef5350 !important;
+    display: inline-block;
+    font-size: 60px;
+    height: 120px;
+    line-height: 120px;
+    margin-top: 20px;
+    text-align: center;
+    width: 120px;
+    color: #ffffff;
+}
+
+/*
+main page
+*/
+
+.text-tab {
+	font-weight: 500;
+}
+
+/*
+addad page
+*/
+
+.panel-mapping {
+	background-color: #4b5a64;
+	padding: 30px 0px 30px 0px;
+}
+.text-mapping {
+	color: #ffffff !important;
+}
+.state-icon {
+	border-radius: 100%;
+    background-color: #d7dcde !important;
+    display: inline-block;
+    font-size: 60px;
+    height: 120px;
+    line-height: 120px;
+    margin-top: 20px;
+    text-align: center;
+    width: 120px;
+    color: #ffffff;
+}
+.state-icon-select {
+	border-radius: 100%;
+    background-color: #ef5350 !important;
+    display: inline-block;
+    font-size: 60px;
+    height: 120px;
+    line-height: 120px;
+    margin-top: 20px;
+    text-align: center;
+    width: 120px;
+    color: #ffffff;
+}

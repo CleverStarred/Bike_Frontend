@@ -1,0 +1,8 @@
+src/config/*
+!src/config/defaults
+
+node_modules
+dist
+tmp
+build
+npm-debug.log
